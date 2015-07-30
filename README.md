@@ -83,4 +83,3 @@ You now have those key bindings set!
 - cmd+k, cmd+shift+[arrow_direction] will kill the window in the direction you specified
 
 There are a lot more commands, but those are the two that I use 95% of the time. To find more options, go to View -> Origami
-
