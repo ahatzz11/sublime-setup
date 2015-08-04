@@ -1,7 +1,10 @@
-# sublime_setup
+# Setting Up Sublime Text 3
 
 #### Opening files from terminal
 
+Right click on "Sublime Text" in your applications folder and select "Show Package Contents". From here navigate to Sublime Text/Contents/Resources/app. In this repo is a file called "Sublime.sh". Download this and put it in the app folder, you may have to create this app folder. Now you can open files directly in sublime from terminal.
+	
+    $ sublime index.html	
 
 
 #### Install Package Control
@@ -31,6 +34,8 @@ Other useful commands on the pallete:
 
 ####  My favorite packages
 
+- AngularJS
+  - auto completion, snippets, etc.
 - BracketHighlighter
   - highlights whatever bracket/quotes you are currently in. nice for scope
 - HTML5
@@ -43,7 +48,33 @@ Other useful commands on the pallete:
   - utility to highlight and remove any trailing spaces in your code. great for those who like clean code.
 
 
-#### Set colors and theme
+#### AngularJS
+
+There are recommended settings by the developers that you should follow. Add the following code to your user settings in sublime. Sublime Text -> Preferences -> Settings-User
+
+    // add for auto triggering controller completions within the ng-controller=""
+	"auto_complete_triggers":
+    [
+        {
+            "characters": "ng-controller=\"*",
+            "selector": "punctuation.definition.string"
+        }
+    ],
+
+    "auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin, text.haml",
+
+
+
+You can also find them on the [github repo](https://github.com/angular-ui/AngularJS-sublime-package#user-content-recommended-settings).
+
+#### Origami
+
+- cmd+k, cmd+[arrow_direction] will create a new window in the direction you specified
+- cmd+k, cmd+shift+[arrow_direction] will kill the window in the direction you specified
+
+There are a lot more commands, but those are the two that I use 95% of the time. To find more options, go to View -> Origami
+
+#### Theme & Color Settings
 The colors and the theme are separate in sublime. To use cobalt2 for both of these, copy paste the following in the sublime-users folder. Sublime Text -> Preferences -> Settings-User
 
 <pre><code>{
@@ -53,7 +84,6 @@ The colors and the theme are separate in sublime. To use cobalt2 for both of the
 </code></pre>
 
 You will need to restart sublime to see the new theme.
-
 
 #### Trailing Spaces
 
@@ -77,9 +107,3 @@ You now have those key bindings set!
 - ctrl+shift+d will toggle the highlighting on trailing spaces
 
 
-#### Origami
-
-- cmd+k, cmd+[arrow_direction] will create a new window in the direction you specified
-- cmd+k, cmd+shift+[arrow_direction] will kill the window in the direction you specified
-
-There are a lot more commands, but those are the two that I use 95% of the time. To find more options, go to View -> Origami
