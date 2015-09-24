@@ -1,12 +1,3 @@
-# Setting Up Sublime Text 3
-
-#### Opening files from terminal
-
-Right click on "Sublime Text" in your applications folder and select "Show Package Contents". From here navigate to Sublime Text/Contents/Resources/app. In this repo is a file called "Sublime.sh". Download this and put it in the app folder, you may have to create this app folder. Now you can open files directly in sublime from terminal.
-	
-    $ sublime index.html	
-
-
 #### Install Package Control
 
 To open the sublime terminal:
@@ -106,4 +97,10 @@ You now have those key bindings set!
 - ctrl+shift+t will delete all trailing spaces in your file
 - ctrl+shift+d will toggle the highlighting on trailing spaces
 
+# Setting Up Sublime Text 3
 
+#### Opening files from terminal
+
+Right click on "Sublime Text" in your applications folder and select "Show Package Contents". From here navigate to Sublime Text/Contents/Resources/app. In this repo is a file called "Sublime.sh". Download this and put it in the app folder, you may have to create this app folder. Now you can open files directly in sublime from terminal.
+	
+    $ sublime index.html	
