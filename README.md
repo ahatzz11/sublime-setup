@@ -33,7 +33,7 @@ Other useful commands on the pallete:
   - autocompletion of html5 elements. pretty much every language has one of these
 - Origami
   - allows you to move windows around very easily
-- Theme - Cobalt2
+- Theme - SetiUI/SetiUX
   - changes colors/theme
 - TrailingSpaces
   - utility to highlight and remove any trailing spaces in your code. great for those who like clean code.
@@ -66,12 +66,11 @@ You can also find them on the [github repo](https://github.com/angular-ui/Angula
 There are a lot more commands, but those are the two that I use 95% of the time. To find more options, go to View -> Origami
 
 #### Theme & Color Settings
-The colors and the theme are separate in sublime. To use cobalt2 for both of these, copy paste the following in the sublime-users folder. Sublime Text -> Preferences -> Settings-User
+The colors and the theme are separate in sublime. To use seti for both of these, copy paste the following in the sublime-users folder. Sublime Text -> Preferences -> Settings-User
 
 <pre><code>{
-	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
-    "theme": "Cobalt2.sublime-theme"
-    "theme": "Seti.sublime-theme"
+	"color_scheme": "Packages/Seti_UX/Seti.tmTheme",
+    	"theme": "Seti.sublime-theme",
 }
 </code></pre>
 
