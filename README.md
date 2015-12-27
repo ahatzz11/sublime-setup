@@ -71,8 +71,11 @@ The colors and the theme are separate in sublime. To use cobalt2 for both of the
 <pre><code>{
 	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
     "theme": "Cobalt2.sublime-theme"
+    "theme": "Seti.sublime-theme"
 }
 </code></pre>
+
+
 
 You will need to restart sublime to see the new theme.
 
